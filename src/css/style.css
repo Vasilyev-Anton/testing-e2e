@@ -1,0 +1,48 @@
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin: 0;
+}
+
+.img-wrapper {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    opacity: 0.2;
+}
+
+img {
+    width: 80%;
+    height: 54%; 
+}
+
+.mir-wrapper.active-mir,
+.visa-wrapper.active-visa,
+.mastercard-wrapper.active-mastercard,
+.unionpay-wrapper.active-unionpay,
+.jcb-wrapper.active-jcb,
+.americanexpress-wrapper.active-americanexpress,
+.discover-wrapper.active-discover {
+  opacity: 1;
+}
+
+body {
+  display: grid;
+}
+
+.invalid-input {
+  color: red;
+}
+
+.control, .input, .submit {
+  box-sizing: border-box;
+  height: 30px;
+  border-radius: 0.3em;
+}
+
+.submit {
+  color: white;
+  background: rgb(80, 172, 80);
+  border: 0;
+}
